@@ -1,20 +1,156 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Monky Go's Home Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <h2>About Me</h2>
-        <p>I'm an indie game developer, who uses whatever technologies that can get the job done.
-        I'm fascinated with game development, web/mobile development, and blockchains. I enjoy 
-        tackling new challenges and problems, so that I can grow and be better at what I do.</p>
-        <h2>Work</h2>
-        <li><a href="https://playsaurus.com/PokerQuest.html">Poker Quest</a>, rogue-like RPG card game</li>
-        <li><a href="http://www.clickerheroes2.com">Clicker Heroes 2</a>, idle incremental game (helped out a bit)</li>
-        <li><a href="http://www.clickerheroes.com">Clicker Heroes</a>, idle incremental game</li>
-        <li><a href="http://www.abcmouse.com">ABCmouse.com</a>, early learning website</li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css" />
+    <script
+      type="text/javascript"
+      src="./resources/scripts/main.js"
+      defer
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/2448e9051e.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body class="page light">
+    <nav>
+      <h1 id="logo">Monky Go Banana</h1>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#project">Porjects</a></li>
+        <li class="navigation-item"><a href="#skill">Skills</a></li>
+        <li class="navigation-item"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" />
+        <label for="theme" class="toggle-label"
+          ><svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            ></path></svg
+        ></label>
+      </div>
+    </nav>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Monky Go Banana and am a programmer, mainly write code for
+              video games and frontend web development.
+            </p>
+            <p>
+              In my free time I like to keep up with Web3 technologies, go on a
+              hike, and get boba tea.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Poker Quest</h3>
+          </summary>
+          <a href="https://playsaurus.com/PokerQuest.html" target="_blank"
+            ><img
+              src="./resources/img/poker_quest_promo3.png"
+              alt="Logo for Poker Quest"
+              class="project-image"
+          /></a>
+          <p>
+            Poker Quest is a challenging fantasy roguelike where you make use of
+            a standard deck of playing cards - Ace, King, Queen, and so on. You
+            use the cards to empower your items in combat. Better hands often
+            trigger stronger abilities on your items.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Clicker Heroes 2</h3>
+          </summary>
+          <a href="https://www.clickerheroes2.com/" target="_blank"
+            ><img
+              src="./resources/img/clicker_heroes2_promo.jpg"
+              alt="Logo for Clicker Heroes 2"
+              class="project-image"
+          /></a>
+          <p>
+            Clicker Heroes 2 is a game about the feeling of getting amazing
+            powerups. You will embark on a never-ending journey to defeat
+            mythical creatures, progressing through an infinite number of
+            worlds. There will always be another upgrade.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Clicker Heroes</h3>
+          </summary>
+          <a href="https://www.clickerheroes.com/" target="_blank"
+            ><img
+              src="./resources/img/clicker_heroes_promo.jpg"
+              alt="Logo for Clicker Heroes"
+              class="project-image"
+          /></a>
+          <p>
+            Start out by clicking on the monster to kill them, and get their
+            gold. Spend that gold on hiring new heroes and get more damage. The
+            more damage you deal, the more gold you will get. Feel the power as
+            you grow exponentially and become the greatest ever!
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>ABCmouse</h3>
+          </summary>
+          <a href="https://www.abcmouse.com/" target="_blank"
+            ><img
+              src="./resources/img/abcmouse_classroom.png"
+              alt="Logo for ABCmouse"
+              class="project-image"
+          /></a>
+          <p>Early learning academy.</p>
+        </details>
+      </section>
+      <section id="skill">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-brands fa-unity"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linux"></i>
+          <i class="fa-brands fa-android"></i>
+          <i class="fa-brands fa-php"></i>
+          <i class="fa-brands fa-java"></i>
+        </div>
+      </section>
+      <section id="contact">
         <h2>Contact</h2>
-        <p>Please feel free to reach me at monky.go.banana@gmail.com</p>
-    </body>
+        <div id="contact-container">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>monky.go.banana@gmail.com</h3>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
