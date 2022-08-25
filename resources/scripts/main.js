@@ -41,7 +41,7 @@ function toggleIconTheme() {
 }
 
 function setCheckedState() {
-  if (localStorage.checked !== undefined) {
+  if (localStorage.enableDarkMode !== undefined) {
     toggle.checked =
       localStorage.getItem(enableDarkMode) === "true" ? true : false;
     toggleTheme();
