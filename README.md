@@ -2,4 +2,4 @@
 
 ## Description
 
-    A portfolio website for myself.
+    These are some of the things I did.
